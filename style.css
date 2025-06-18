@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: Georgia;
+    margin-bottom: 20px;
+    color: hsl(30, 100%, 29%);
+}
+
+#cookieImg {
+    width: 600px;
+    height: 600px;
+    border-radius: 200px;
+    margin-top: 150px;
+}
+
+#cookieImg.bigCookie {
+    transform: scale(1.5);
+}
